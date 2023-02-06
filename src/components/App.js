@@ -4,7 +4,8 @@ import "./../styles/App.css";
 function App() {
   return (
     <div id="main">
-      <button>Click me</button>
+      <p>This is a paragraph</p>
+      <button id="button">Click me</button>
       // Do not alter the main div
     </div>
   );
