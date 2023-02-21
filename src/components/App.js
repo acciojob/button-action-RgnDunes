@@ -5,7 +5,7 @@ function App() {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <div id="main" className="bg-pink">
+    <div id="main">
       {isClicked && (
         <p id="para">
           Hello, I've learnt to use the full-stack evaluation tool. This makes
@@ -20,7 +20,7 @@ function App() {
       >
         Click me
       </button>
-      // Do not alter the main div
+      {/* Do not alter the main div */}
     </div>
   );
 }
