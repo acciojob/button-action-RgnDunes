@@ -7,11 +7,17 @@ function App() {
   return (
     <div id="main" className="bg-pink">
       {isClicked && (
-        <p>
-          <h1>This is a paragraph</h1>
+        <p id="para">
+          Hello, I've learnt to use the full-stack evaluation tool. This makes
+          me so happy
         </p>
       )}
-      <button id="button" onClick={handleClick}>
+      <button
+        id="click"
+        onClick={() => {
+          setIsClicked(true);
+        }}
+      >
         Click me
       </button>
       // Do not alter the main div
